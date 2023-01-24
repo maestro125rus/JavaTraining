@@ -1,7 +1,22 @@
 public class Counter {
-    public int a;
-    public int b;
+    int count;
 
-    void
+        public Counter(){
+        this.count = 0;
+        }
+
+        public int increment(){
+            count++;
+        return count;
+        }
+
+        public int decrement(){
+            count--;
+        return count;
+        }
+
+        public void reset(){
+            count = 0;
+        }
 
 }
